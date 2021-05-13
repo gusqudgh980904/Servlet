@@ -19,4 +19,14 @@
     <servlet-name>Hello</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CallServlet</display-name>
+    <servlet-name>CallServlet</servlet-name>
+    <servlet-class>day0513.CallServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CallServlet</servlet-name>
+    <url-pattern>/call_servlet</url-pattern>
+  </servlet-mapping>
 </web-app>
